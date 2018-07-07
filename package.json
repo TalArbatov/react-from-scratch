@@ -1,0 +1,11 @@
+{
+  "name": "react-from-scratch2",
+  "version": "1.0.0",
+  "description": "Creating a development enviroment using React, Webpack, Babel and live-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
