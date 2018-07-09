@@ -90,10 +90,23 @@
 /*!********************!*\
   !*** ./src/app.js ***!
   \********************/
-/*! no static exports found */
-/***/ (function(module, exports) {
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
 
-eval("console.log('test');\n\n//# sourceURL=webpack:///./src/app.js?");
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _person__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./person */ \"./src/person.js\");\n\r\n\r\nconst person = _person__WEBPACK_IMPORTED_MODULE_0__[\"createPerson\"](41, 'female');\r\nconsole.log(person);\r\nconst isAdult = _person__WEBPACK_IMPORTED_MODULE_0__[\"isAdult\"](person.age);\r\nconsole.log(isAdult);\r\n\n\n//# sourceURL=webpack:///./src/app.js?");
+
+/***/ }),
+
+/***/ "./src/person.js":
+/*!***********************!*\
+  !*** ./src/person.js ***!
+  \***********************/
+/*! exports provided: createPerson, isAdult */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"createPerson\", function() { return createPerson; });\n/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, \"isAdult\", function() { return isAdult; });\nconst createPerson = (age, gender) => {\r\n  return{age, gender};\r\n};\r\n\r\nconst isAdult = age => (age < 18 ? false : true);\r\n\r\n\r\n\r\n\n\n//# sourceURL=webpack:///./src/person.js?");
 
 /***/ })
 
