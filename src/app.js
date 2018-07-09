@@ -1,3 +1,9 @@
-const app = <h1>testing JSX into ES3</h1>
+import React, {Component} from 'react';
 
-ReactDOM.render(app, document.getElementById('root'));
+export default class App extends Component {
+    render() {
+        return(
+            <div>IT WORKS!!!</div>
+        )
+    }
+}
