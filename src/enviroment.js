@@ -1,0 +1,1 @@
+console.log('enviroment.js is running');
