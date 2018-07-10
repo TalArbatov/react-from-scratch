@@ -5,7 +5,7 @@ const initialState = {
 }
 
 export default (state = initialState, action) => {
-    const newState = Object.assign({}, state);
+    const newState = {...state}
     switch(action.type) {
         case actions.INC_COUNTER:
             console.log('increment counter!');
